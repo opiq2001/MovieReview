@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#"
+     xml:base="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#dipublikasikanDi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#dipublikasikanDi">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Paper"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Konferensi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#menulisPaper -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#menulisPaper">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Paper"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#JudulMakalah -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#JudulMakalah">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Paper"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#abstrak -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#abstrak">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Paper"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#jenisPaper -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#jenisPaper">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Paper"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#namaKonferensi -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#namaKonferensi">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Konferensi"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#tanggalKonferensi -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#tanggalKonferensi">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Konferensi"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#tempatKonferensi -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#tempatKonferensi">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Konferensi"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#website -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#website">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Konferensi"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#KelompokKeahlian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#KelompokKeahlian"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Konferensi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Konferensi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Paper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Paper">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Penulis1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Penulis1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Penulis2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Penulis2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Penulis3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Penulis3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bagindokemas/ontologies/2022/7/untitled-ontology-112#Person"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

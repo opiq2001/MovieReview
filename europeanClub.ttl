@@ -1,0 +1,82 @@
+@base <http://example.com/base/> .
+@prefix pub: <http://ontology.ontotext.com/taxonomy/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<Chelsea> a pub:SportsTeam;
+  pub:country <England>;
+  pub:of <Premier_League>;
+  pub:positionHeld "3" .
+
+<Premier_League> pub:countryForSport <England>;
+  pub:has <Chelsea>, <Manchester_City>, <Manchester_United>, <Liverpool> .
+
+<England> pub:has <Premier_League>, <Chelsea>, <Manchester_City>, <Manchester_United>,
+    <Liverpool>;
+  pub:partOf <europe> .
+
+<Manchester_City> a pub:SportsTeam;
+  pub:country <England>;
+  pub:of <Premier_League>;
+  pub:positionHeld "1" .
+
+<Manchester_United> a pub:SportsTeam;
+  pub:country <England>;
+  pub:of <Premier_League>;
+  pub:positionHeld "6" .
+
+<Liverpool> a pub:SportsTeam;
+  pub:country <England>;
+  pub:of <Premier_League>;
+  pub:positionHeld "2" .
+
+<Real_Madrid> a pub:SportsTeam;
+  pub:country <Spain>;
+  pub:of <LaLiga>;
+  pub:positionHeld "1" .
+
+<LaLiga> pub:countryForSport <Spain>;
+  pub:has <Real_Madrid>, <Barcelona>, <Atletico_Madrid>, <Sevilla> .
+
+<Spain> pub:has <LaLiga>, <Real_Madrid>, <Barcelona>, <Atletico_Madrid>, <Sevilla>;
+  pub:partOf <europe> .
+
+<Barcelona> a pub:SportsTeam;
+  pub:country <Spain>;
+  pub:of <LaLiga>;
+  pub:positionHeld "2" .
+
+<Atletico_Madrid> a pub:SportsTeam;
+  pub:country <Spain>;
+  pub:of <LaLiga>;
+  pub:positionHeld "3" .
+
+<Sevilla> a pub:SportsTeam;
+  pub:country <Spain>;
+  pub:of <LaLiga>;
+  pub:positionHeld "4" .
+
+<AC_Milan> a pub:SportsTeam;
+  pub:country <Italia>;
+  pub:of <Serie_A>;
+  pub:positionHeld "1" .
+
+<Serie_A> pub:countryForSport <Italia>;
+  pub:has <AC_Milan>, <Inter_Milan>, <Napoli>, <Juventus> .
+
+<Italia> pub:has <Serie_A>, <AC_Milan>, <Inter_Milan>, <Napoli>, <Juventus>;
+  pub:partOf <europe> .
+
+<Inter_Milan> a pub:SportsTeam;
+  pub:country <Italia>;
+  pub:of <Serie_A>;
+  pub:positionHeld "2" .
+
+<Napoli> a pub:SportsTeam;
+  pub:country <Italia>;
+  pub:of <Serie_A>;
+  pub:positionHeld "3" .
+
+<Juventus> a pub:SportsTeam;
+  pub:country <Italia>;
+  pub:of <Serie_A>;
+  pub:positionHeld "4" .
